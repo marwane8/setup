@@ -1,4 +1,6 @@
-Editor Short Cuts
+
+## Editor Short Cuts
+```
 VS Code Shortcuts
 Windows
 Close File: CMD + W
@@ -28,8 +30,11 @@ Collapse all folders: CMD + ←
 Debugging
 debug: CMD + Q
 step into: CMD + 1
-step out of: CMD +`
-Windows Management
+step out of: CMD +1
+```
+## Windows Management
+```
 Two Thirds: CTRL + OPT + (E||T)
 Middle Third: CTRL + OPT + F
 Right Half: CTRL + OPT + →
+```
