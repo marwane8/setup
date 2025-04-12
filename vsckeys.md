@@ -18,7 +18,9 @@ OPT + UP/DOWN = bottom/top page
 change all occurrences: CMD + O ⇒ (x)
 Find: CMD + F
 Replace: CMD + R
-Tooling
+```
+## Tooling
+```
 Prettier: CMD + K
 Terminal: CMD + T
 Command Pallet: CMD + SHIFT + P
@@ -27,7 +29,9 @@ File Mangement
 open explorer: CMD + E
 create new file: CMD + I
 Collapse all folders: CMD + ←
-Debugging
+```
+## Debugging
+```
 debug: CMD + Q
 step into: CMD + 1
 step out of: CMD +1
