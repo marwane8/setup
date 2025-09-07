@@ -1,4 +1,4 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaults (work)
 [
     {
         "key": "cmd+n",
@@ -323,4 +323,4 @@
         "command": "-editor.action.accessibleViewAcceptInlineCompletion",
         "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
     }
-] 
+]
