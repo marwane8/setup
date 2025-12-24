@@ -1,5 +1,10 @@
-/ Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaults (work)
 [
+  {
+    "key": "cmd+k",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
   {
     "key": "cmd+t",
     "command": "workbench.action.terminal.toggleTerminal",
@@ -31,8 +36,8 @@
   },
   {
     "key": "cmd+n",
-    "command": "editor.action.wordHighlight.next",
-    "when": "editorTextFocus && hasWordHighlights"
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
     "key": "cmd+g",
@@ -51,5 +56,5 @@
   {
     "key": "cmd+r",
     "command": "workbench.action.replaceInFiles"
-  },
+  }
 ]
